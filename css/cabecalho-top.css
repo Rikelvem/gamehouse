@@ -1,0 +1,40 @@
+.cabecalho__top {
+    background-color: var(--preto);
+}
+
+.cabecalho__top-nav {
+    display: inline-block;
+}
+
+.cabecalho__top-stack {
+    font-size: 32px;
+}
+
+.cabecalho__top-stack-html i::before {
+    content: "\e912";
+    color: var(--branco);
+}
+
+.cabecalho__top-stack-css i::before {
+    content: "\e910";
+    color: var(--branco);
+}
+
+.cabecalho__top-stack-js i::before {
+    content: "\e913";
+    color: var(--branco);
+}
+
+.cabecalho__top-link {
+    font-size: 32px;
+}
+
+.cabecalho__top-link-git i::before {
+    content: "\e911";
+    color: var(--branco);
+}
+
+.cabecalho__top-link-in i::before {
+    content: "\e914";
+    color: var(--branco);
+}

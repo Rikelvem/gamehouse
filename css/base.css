@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icomoon.ttf);
+}
+
+:root {
+    --cinza-esc: #333333;
+    --preto: #0A0A0A;
+    --branco: #FCFCFC;
+}
+
+.container {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+body {
+    font-family: 'Major Mono Display', monospace;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'icones';
+}
