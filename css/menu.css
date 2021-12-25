@@ -1,0 +1,74 @@
+.menu-lateral {
+    display: flex;
+    flex-direction: column;
+
+    width: 60vw;
+    height: 100vh;
+
+    background-color: var(--branco);
+
+    position: absolute;
+    right: -100vw;
+
+    font-family: var(--font-corpo);
+    color: var(--vermelho);
+    font-weight: 600;
+
+    box-sizing: border-box;
+
+    transition: .6s;
+}
+
+.menu-lateral--ativo {
+    right: 0vw;
+    transition: .6s;
+}
+
+.menu-lateral__link {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    padding-left: 64px;
+
+    border-bottom: solid 1px var(--borda);
+}
+
+.menu-lateral__link-home {
+    margin-top: 30px;
+}
+
+.menu-lateral__link::before {
+    content: "\e916";
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    position: absolute;
+    left: 24px;
+
+    font-weight: 400;
+    font-family: 'icones';
+}
+
+.menu-lateral__link-home::before {
+    content: "\e90b";
+}
+
+.menu-lateral__link-jogos::before {
+    content: "\e908";
+}
+
+.menu-lateral__link-videos::before {
+    content: "\e90c";
+}
+
+.menu-lateral__link-loja::before {
+    content: "\e90f";
+}
+
+.menu-lateral__link-favoritos::before {
+    content: "\e90a";
+}
+
+.menu-lateral__link-contatos::before {
+    content: "\e90d";
+}

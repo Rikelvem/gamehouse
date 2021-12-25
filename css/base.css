@@ -7,6 +7,12 @@
     --cinza-esc: #333333;
     --preto: #0A0A0A;
     --branco: #FCFCFC;
+
+    --vermelho: #ff6347;
+    --borda: #33333360;
+
+    --font-titulo: 'Major Mono Display', monospace;
+    --font-corpo: 'Nunito Sans', sans-serif;
 }
 
 .container {
@@ -18,4 +24,6 @@ body {
     font-family: 'Major Mono Display', monospace;
     font-family: 'Nunito Sans', sans-serif;
     font-family: 'icones';
+
+    background-color: var(--cinza-esc);
 }

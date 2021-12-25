@@ -1,0 +1,34 @@
+.cabecalho {
+    background-color: var(--branco);
+    color: var(--vermelho);
+    font-family: var(--font-titulo);
+}
+
+.cabecalho__div {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.cabecalho__titulo {
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    margin-left: 20px;
+}
+
+.cabecalho__menu {
+    font-family: 'icones';
+    font-size: 24px;
+    font-weight: 600;
+
+    margin-right: 40px;
+    margin-top: 2px;
+}
+
+.cabecalho__menu i::before {
+    content: "\e916";
+}
