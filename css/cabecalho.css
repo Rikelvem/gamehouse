@@ -2,6 +2,18 @@
     background-color: var(--branco);
     color: var(--vermelho);
     font-family: var(--font-titulo);
+
+    /*--cabecalho fixo desktop
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;*/
+
+    width: 100%;
+}
+
+.cabecalho-fixo {
+    position: fixed;
 }
 
 .cabecalho__div {

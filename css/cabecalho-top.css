@@ -28,3 +28,15 @@
     content: "\e914";
     color: var(--branco);
 }
+
+[data-anime] {
+    transition: .3s;
+}
+
+[data-anime="top"] {
+    transform: translate3d(0px, -100vh, 0px);
+}
+
+[data-anime].animate {
+    transform: translate3d(0px, 0px, 0px);
+}
