@@ -3,35 +3,25 @@
 }
 
 .cabecalho__top-nav {
-    display: inline-block;
-}
+    display: flex;
+    justify-content: flex-end;
 
-.cabecalho__top-stack {
-    font-size: 32px;
-}
-
-.cabecalho__top-stack-html i::before {
-    content: "\e912";
-    color: var(--branco);
-}
-
-.cabecalho__top-stack-css i::before {
-    content: "\e910";
-    color: var(--branco);
-}
-
-.cabecalho__top-stack-js i::before {
-    content: "\e913";
-    color: var(--branco);
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-right: 48px;
 }
 
 .cabecalho__top-link {
-    font-size: 32px;
+    font-size: 24px;
+
+    cursor: pointer;
 }
 
 .cabecalho__top-link-git i::before {
     content: "\e911";
     color: var(--branco);
+
+    padding-right: 24px
 }
 
 .cabecalho__top-link-in i::before {
