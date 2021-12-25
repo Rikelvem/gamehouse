@@ -1,0 +1,79 @@
+.chamada {
+    background-image: url(../img/jgs/background-ea.jpg);
+    background-repeat: no-repeat;
+
+    background-size: 300vw 90vh;
+
+    box-sizing: border-box;
+}
+
+.chamada__conteudo {
+    background: linear-gradient( -155deg, rgba(255,71,71,1) -30%, rgba(13,16,66,0.85) 30%, rgba(13,16,66,1) 100%);
+    background-size: 100% 100%;
+
+    padding: 32px 16px;
+
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.chamada__titulo {
+    font-size: 64px;
+    font-family: var(--font-titulo);
+    text-transform: uppercase;
+
+    color: var(--vermelho);
+
+    margin-bottom: 30px;
+}
+
+.chamada__slogan {
+    color: var(--branco);
+
+    font-family: var(--font-corpo);
+    font-size: 22px;
+    font-weight: 700;
+
+    margin-bottom: 15px;
+}
+
+.chamada__resumo {
+    font-family: var(--font-corpo);
+    font-weight: 400;
+    color: var(--branco);
+    font-size: 18px;
+
+    margin-bottom: 35px;
+}
+
+.chamada__botao {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    font-family: var(--font-corpo);
+    font-weight: 400;
+
+    height: 50px;
+
+    border-radius: 3px;
+}
+
+/*@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+
+    animation: colors 6s ease infinite;
+}*/
