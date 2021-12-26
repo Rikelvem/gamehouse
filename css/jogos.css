@@ -1,0 +1,77 @@
+.jogos { 
+    background: linear-gradient( var(--branco), #FDFFFC);
+    font-family: var(--font-corpo);
+    padding: 32px 16px;
+
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.jogos__titulo {
+    margin-top: 5px;
+    margin-bottom: 30px;
+
+    font-size: 22px;
+    color: var(--azul);
+    font-weight: 700;
+}
+
+.jogos__cartao {
+    margin-bottom: 16px;
+    margin-top: 32px;
+
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: var(--branco);
+
+    box-sizing: border-box;
+
+    color: var(--preto);
+
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.10);
+}
+
+.jogos__img {
+    width: 100%;
+
+    overflow: hidden;
+}
+
+.jogos__conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jogos__titulo-destaque {
+    font-size: 24px;
+    color: var(--azul);
+    font-weight: 700;
+    text-transform: uppercase;
+
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.jogos__resumo {
+    max-width: 310px;
+    text-align: center;
+
+    font-weight: 600;
+    color: var(--preto);
+
+    margin-bottom: 20px;
+}
+
+.jogos__botao {
+    margin-bottom: 27px;
+    color: var(--branco);
+    font-size: 14px;
+    font-weight: 700;
+
+    background-color: var(--azul);
+    border-radius: 5px;
+
+    width: 50vw;
+    height: 5vh;
+}

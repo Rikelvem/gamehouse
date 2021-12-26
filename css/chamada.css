@@ -8,7 +8,7 @@
 }
 
 .chamada__conteudo {
-    background: linear-gradient( -155deg, rgba(255,71,71,1) -30%, rgba(13,16,66,0.85) 30%, rgba(13,16,66,1) 100%);
+    background: linear-gradient( -155deg, #ff4747 -30%, #0d1042d9 30%, #0d1042 100%);
     background-size: 100% 100%;
 
     padding: 32px 16px;
@@ -60,6 +60,10 @@
     height: 50px;
 
     border-radius: 3px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /*@keyframes colors {

@@ -6,9 +6,11 @@
 :root {
     --cinza-esc: #333333;
     --preto: #0A0A0A;
-    --branco: #FCFCFC;
+    --branco: #ffffff;
+    --branco-esc: #FCFCFC;
 
     --vermelho: #C2251D;
+    --azul: #0d1042;
     --borda: #33333360;
 
     --font-titulo: 'Major Mono Display', monospace;
