@@ -3,10 +3,13 @@
     background-repeat: no-repeat;
 
     box-sizing: border-box;
+
+    background-size: 350vh;
 }
 
 .loja__destaque {
     background: linear-gradient( 155deg, #ff4747 -30%, #0d1042d9 30%, #0d1042 100%);
+    background-size: 350vh;
 
     font-family: var(--font-corpo), 'icones';
 
@@ -46,6 +49,8 @@
     text-align: center;
 
     box-sizing: border-box;
+
+    margin-bottom: 40px;
 }
 
 .loja__logo {
@@ -59,6 +64,18 @@
     font-family: 'icones';
     font-size: 135px;
     color: var(--branco);
+}
+
+.loja__logo-ps5::before {
+    content: "\e917";
+
+    color: var(--azul);
+}
+
+.loja__logo-xbox::before {
+    content: "\e919";
+
+    color: green;
 }
 
 .loja__logo-steam::before {
@@ -101,4 +118,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.loja__botao-ps5 {
+    color: var(--branco);
+    background-color: var(--azul);
+}
+
+.loja__botao-xbox {
+    color: var(--branco);
+    background-color: green;
 }

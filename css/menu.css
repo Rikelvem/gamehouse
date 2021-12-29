@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
 
+    display: none;
+
     width: 60vw;
     height: 100vh;
 
@@ -14,14 +16,14 @@
     color: var(--vermelho);
     font-weight: 600;
 
-    box-sizing: border-box;
-
-    transition: .6s;
+    transition: .25s;
 }
 
 .menu-lateral--ativo {
     right: 0vw;
-    transition: .6s;
+    transition: .25s;
+
+    display: flex;
 }
 
 .menu-lateral__link {
