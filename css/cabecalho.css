@@ -44,3 +44,23 @@
 .cabecalho__menu i::before {
     content: "\e916";
 }
+
+.botao__home {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+
+    font-size: 25px;
+    background-color: var(--vermelho);
+    border-radius: 80px;
+
+    padding: 8px 8px;
+
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.20);
+}
+
+.botao__home i::before {
+    content: "\e90b";
+
+    color: var(--branco);
+}
