@@ -3,11 +3,10 @@
     color: var(--vermelho);
     font-family: var(--font-titulo);
 
-    /*--cabecalho fixo desktop
     position: fixed;
     left: 0;
-    top: 0;
-    width: 100%;*/
+    top: 42px;
+    width: 100%;
 
     width: 100%;
 }

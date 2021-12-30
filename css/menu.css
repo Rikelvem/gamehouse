@@ -20,6 +20,9 @@
 }
 
 .menu-lateral--ativo {
+    position: fixed;
+
+    top: 98px;
     right: 0vw;
     transition: .25s;
 

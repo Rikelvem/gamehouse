@@ -1,5 +1,10 @@
 .cabecalho__top {
     background-color: var(--preto);
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
 .cabecalho__top-nav {

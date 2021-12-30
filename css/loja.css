@@ -13,8 +13,7 @@
 
 .loja__titulo {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
 
     color: var(--preto);
     font-size: 32px;
@@ -24,11 +23,8 @@
     margin-bottom: 50px;
 }
 
-.loja__titulo i::after {
+.loja__titulo i::before {
     content: "\e90f";
-
-    position: absolute;
-    left: 107px;
 }
 
 .loja__conteudo {
