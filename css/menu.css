@@ -59,16 +59,8 @@
     content: "\e908";
 }
 
-.menu-lateral__link-videos::before {
-    content: "\e90c";
-}
-
 .menu-lateral__link-loja::before {
     content: "\e90f";
-}
-
-.menu-lateral__link-favoritos::before {
-    content: "\e90a";
 }
 
 .menu-lateral__link-contatos::before {

@@ -1,6 +1,19 @@
 .jogos { 
-    background: linear-gradient( var(--branco), #FDFFFC);
+    background-image: url(../img/jgs/loja-digital.jpg);
+    background-repeat: no-repeat;
+
+    background-size: 290vh;
+
     font-family: var(--font-corpo);
+}
+
+.jogos__destaque {
+    background: linear-gradient( 155deg, #ff4747 -30%, #0d1042d9 30%, #0d1042 100%);
+
+    background-size: 350vh;
+
+    font-family: var(--font-corpo), 'icones';
+
     padding: 32px 16px;
 
     padding-left: 15%;
@@ -11,9 +24,17 @@
     margin-top: 5px;
     margin-bottom: 30px;
 
-    font-size: 22px;
-    color: var(--azul);
-    font-weight: 700;
+    font-size: 21px;
+    color: var(--branco);
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.jogos__titulo i::after {
+    content: "\e908";
+
+    margin-right: 7px;
 }
 
 .jogos__cartao {
@@ -28,7 +49,7 @@
 
     color: var(--preto);
 
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.10);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.50);
 }
 
 .jogos__img {
