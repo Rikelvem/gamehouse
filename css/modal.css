@@ -1,0 +1,148 @@
+.modal__container {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    z-index: 2000;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal__container.mostrar {
+    display: flex;
+}
+
+.modal {
+    font-family: var(--font-corpo), 'icones';
+
+    color: var(--preto);
+    font-weight: 800;
+}
+
+@keyframes modal {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 60px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.mostrar .modal {
+    animation: modal .3s;
+}
+
+.modal__conteudo {
+    box-sizing: border-box;
+
+    background: var(--branco);
+    width: 90vw;
+    height: 75vh;
+
+    padding: 16px 32px;
+
+    border-radius: 3px;
+
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.10);
+
+    min-width: 312px;
+
+    position: relative;
+}
+
+.modal__fechar {
+    position: absolute;
+    font-size: 14px;
+
+    top: 12px;
+    right: 14px;
+
+    border-radius: 50px;
+    background-color: var(--vermelho);
+    color: var(--branco);
+    font-weight: 800;
+
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.10);
+}
+
+.modal__titulo {
+    margin-top: 30px;
+    text-align: center;
+    color: var(--vermelho);
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.modal__sub-titulo {
+    text-align: center;
+    font-weight: 600;
+
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.modal__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__label {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--preto);
+
+    margin-bottom: 7px;
+
+    padding-left: 10px;
+}
+
+.modal__input {
+    background: rgba(0, 0, 0, 0.10);
+
+    color: var(--preto);
+    border-radius: 3px;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    height: 4vh;
+    padding-left: 15px;
+
+    margin-bottom: 25px;
+}
+
+.modal__text {
+    background: rgba(0, 0, 0, 0.10);
+    border-radius: 3px;
+
+    padding-top: 8px;
+    padding-left: 10px;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    margin-bottom: 40px;
+}
+
+.modal__botao {
+    background-color: var(--vermelho);
+    color: var(--branco);
+
+    font-size: 18px;
+    font-weight: 700;
+
+    border-radius: 3px;
+
+    height: 4vh;
+}
