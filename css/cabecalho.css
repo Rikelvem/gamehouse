@@ -3,10 +3,12 @@
     color: var(--vermelho);
     font-family: var(--font-titulo);
 
+    /* cabecalho fixo
     position: fixed;
     left: 0;
     top: 42px;
     width: 100%;
+    */
 
     width: 100%;
 }

@@ -24,7 +24,7 @@
     margin-top: 5px;
     margin-bottom: 30px;
 
-    font-size: 21px;
+    font-size: 32px;
     color: var(--branco);
     font-weight: 800;
     text-align: center;
@@ -34,7 +34,7 @@
 .jogos__titulo i::after {
     content: "\e908";
 
-    margin-right: 7px;
+    margin-right: 10px;
 }
 
 .jogos__cartao {

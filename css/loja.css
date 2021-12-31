@@ -25,6 +25,8 @@
 
 .loja__titulo i::before {
     content: "\e90f";
+
+    margin-right: 10px;
 }
 
 .loja__conteudo {

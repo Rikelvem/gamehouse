@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/chamada.css">
     <link rel="stylesheet" href="css/jogos.css">
     <link rel="stylesheet" href="css/loja.css">
+    <link rel="stylesheet" href="css/contato.css">
     <script src="js/menu-lateral.js" defer></script>
 </head>
 <body>
@@ -80,7 +81,7 @@
         </section>
         <section class="jogos" id="jogos">
             <div class="jogos__destaque">
-            <h2 class="jogos__titulo"><i></i>Jogos em destaque</h2>
+            <h2 class="jogos__titulo"><i></i>Jogos</h2>
             <article class="jogos__cartao">
                 <img src="img/jgs/fifa-22.jpg" alt="Ilustração do jogo Fifa 22" class="jogos__img">
                 <div class="jogos__conteudo">
@@ -107,8 +108,22 @@
             </article>
             </div>
         </section>
-        <section class="contato">
-            
+        <section class="contato" id="contato">
+            <div class="contato__conteudo">
+                <h2 class="contato__titulo"><i></i>Contato</h2>
+                <p class="contato__resumo">Ficou com alguma dúvida? Entre em contato!</p>
+                <article class="contato__comunicacao">
+                    <a href="tel: +5511979980809" class="contato__comunicacao-tel">(11) 97998-0809</a>
+                    <br>ou<br>
+                    <a href="mailto: rikelvemrsilva@gmail.com" class="contato__comunicacao-mail">rikelvemrsilva@gmail.com</a>
+                </article>
+                <fieldset class="contato__fdst">
+                    <label for="botao__msg" class="contato__legenda-btn">Teve algum problema conosco? Mande uma mensagem!</label>
+                    <input type="button" value="Mandar mensagem" class="contato__btn" id="botao__msg">
+                    <label for="botao__nwt" class="contato__legenda-btn">Quer ficar por dentro das promoções? Assine nossa newsletter!</label>
+                    <input type="button" value="Assinar newsletter" class="contato__btn contato__btn-nwt" id="botao__nwt">
+                </fieldset>
+            </div>
         </section>
     </main>
     <footer>

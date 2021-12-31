@@ -20,9 +20,11 @@
 }
 
 .menu-lateral--ativo {
+    /* cabecalho fixo
     position: fixed;
-
     top: 98px;
+    */
+
     right: 0vw;
     transition: .25s;
 
