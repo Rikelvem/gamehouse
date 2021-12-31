@@ -1,0 +1,121 @@
+.newsletter__container {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    width: 100vw;
+    height: 100vh;
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: var(--font-corpo);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.newsletter__container.mostrar {
+    display: flex;
+}
+
+@keyframes newsletter {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 60px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.newsletter {
+    box-sizing: border-box;
+
+    background: var(--branco);
+    width: 90vw;
+    height: 37vh;
+    padding: 16px 32px;
+
+    border-radius: 3px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.10);
+
+    min-width: 312px;
+    position: relative;
+
+    animation: newsletter .3s;
+}
+
+.newsletter__fechar {
+    position: absolute;
+    font-size: 14px;
+
+    top: 12px;
+    right: 14px;
+
+    border-radius: 50px;
+    background-color: var(--azul);
+    color: var(--branco);
+    font-weight: 800;
+
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.10);
+}
+
+.newsletter__titulo {
+    margin-top: 30px;
+    text-align: center;
+    color: var(--azul);
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.newsletter__sub-titulo {
+    text-align: center;
+    font-weight: 600;
+
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.newsletter__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter__label {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--preto);
+
+    margin-bottom: 7px;
+
+    padding-left: 10px;
+}
+
+.newsletter__email {
+    background: rgba(0, 0, 0, 0.10);
+
+    color: var(--preto);
+    border-radius: 3px;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    height: 4vh;
+    padding-left: 15px;
+
+    margin-bottom: 25px;
+}
+
+.newsletter__botao {
+    background-color: var(--azul);
+    color: var(--branco);
+
+    font-weight: 700;
+
+    border-radius: 3px;
+
+    height: 4vh;
+}

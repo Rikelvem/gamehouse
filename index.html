@@ -18,8 +18,10 @@
     <link rel="stylesheet" href="css/loja.css">
     <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/newsletter.css">
     <script src="js/menu-lateral.js" defer></script>
     <script src="js/modal.js" defer></script>
+    <script src="js/newsletter.js" defer></script>
 </head>
 <body>
     <div id="cabecalho">
@@ -150,6 +152,18 @@
                     <input type="submit" value="Enviar mensagem" class="modal__botao">
                 </form>
             </div>
+        </div>
+    </div>
+    <div class="newsletter__container" id="newsletter__modal">
+        <div class="newsletter">
+            <input type="button" value="X" class="newsletter__fechar">
+            <h3 class="newsletter__titulo">Assine nossa newsletter!</h3>
+            <p class="newsletter__sub-titulo">Fique por dentro das nossas novidades e promoções!</p>
+            <form action="" class="newsletter__form">
+                <label for="" class="newsletter__label">Endereço de e-mail</label>
+                <input type="email" id="email" class="newsletter__email" placeholder="teste@teste.com" required>
+                <input type="submit" value="Assinar newsletter" class="newsletter__botao">
+            </form>
         </div>
     </div>
 </body>
