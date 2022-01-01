@@ -1,0 +1,33 @@
+.rodape {
+    background-color: var(--preto);
+
+    height: 140px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape__conteudo {
+    color: var(--branco);
+    text-align: center;
+}
+
+.rodape__titulo {
+    font-family: var(--font-titulo);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+
+    margin-bottom: 20px;
+}
+
+.rodape__resumo {
+    font-size: 18px;
+    font-family: var(--font-corpo);
+}
+
+.rodape__resumo i::before {
+    content: "\00A9";
+}
