@@ -13,6 +13,10 @@
     width: 100%;
 }
 
+.cabecalho__nav {
+    display: none;
+}
+
 .cabecalho-fixo {
     position: fixed;
 }
@@ -64,4 +68,14 @@
     content: "\e90b";
 
     color: var(--branco);
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho__titulo {
+        font-size: 36px;
+    }
+
+    .cabecalho__menu {
+        font-size: 32px;
+    }
 }
