@@ -31,7 +31,7 @@ O site consiste em apresentar uma loja de jogos (fictícia), plataformas confiá
 - Biblioteca EA Play
 - Google Images
 
-## ícones
+## Ícones
 -IcoMoon
 
 # Autor
