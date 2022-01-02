@@ -146,3 +146,9 @@
 
     height: 4vh;
 }
+
+@media screen and (min-width: 768px) {
+    .modal__conteudo {
+        width: 65vw;
+    }
+}

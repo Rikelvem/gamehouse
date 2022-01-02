@@ -18,6 +18,10 @@
 
     padding-left: 15%;
     padding-right: 15%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .jogos__titulo {
@@ -95,4 +99,18 @@
 
     width: 50vw;
     height: 5vh;
+}
+
+@media screen and (min-width: 768px) {
+    .jogos {
+        background-size: 350vh;
+    }
+
+    .jogos__cartao {
+        width: 55vw;
+    }
+
+    .jogos__botao {
+        width: 30vw;
+    }
 }

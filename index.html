@@ -23,6 +23,7 @@
     <script src="js/menu-lateral.js" defer></script>
     <script src="js/modal.js" defer></script>
     <script src="js/newsletter.js" defer></script>
+    <script src="js/scroll.js" defer></script>
 </head>
 <body>
     <div id="cabecalho">
@@ -47,7 +48,6 @@
             <button class="cabecalho__menu"><i></i></button>
         </div>
     </header>
-    <script src="js/scroll.js"></script>
     <nav class="menu-lateral container">
         <a href="#home" class="menu-lateral__link menu-lateral__link-home">Home</a>
         <a href="#loja" class="menu-lateral__link menu-lateral__link-loja">Loja</a>
@@ -129,10 +129,14 @@
                     <a href="mailto: rikelvemrsilva@gmail.com" class="contato__comunicacao-mail">rikelvemrsilva@gmail.com</a>
                 </article>
                 <fieldset class="contato__fdst">
-                    <label for="botao__msg" class="contato__legenda-btn">Teve algum problema conosco? Mande uma mensagem!</label>
-                    <input type="button" value="Mandar mensagem" class="contato__btn" id="botao__msg">
-                    <label for="botao__nwt" class="contato__legenda-btn">Quer ficar por dentro das promoções? Assine nossa newsletter!</label>
-                    <input type="button" value="Assinar newsletter" class="contato__btn contato__btn-nwt" id="botao__nwt">
+                        <div class="contato__mensagem">
+                            <label for="botao__msg" class="contato__legenda-btn">Teve algum problema conosco? Mande uma mensagem!</label>
+                            <input type="button" value="Mandar mensagem" class="contato__btn" id="botao__msg">
+                        </div>
+                        <div class="contato__newsletter">
+                            <label for="botao__nwt" class="contato__legenda-btn">Quer ficar por dentro das promoções? Assine nossa newsletter!</label>
+                            <input type="button" value="Assinar newsletter" class="contato__btn contato__btn-nwt" id="botao__nwt">
+                        </div>
                 </fieldset>
             </div>
         </section>

@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 
     text-align: center;
 
@@ -59,6 +60,20 @@
     align-items: center;
 }
 
+.contato__mensagem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato__newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .contato__legenda-btn {
     font-weight: 700;
     margin-bottom: 15px;
@@ -79,4 +94,30 @@
 
 .contato__btn-nwt {
     background-color: var(--azul);
+}
+
+@media screen and (min-width: 768px) {
+    .contato__resumo {
+        max-width: 300px;
+    }
+
+    .contato__legenda-btn {
+        max-width: 325px;
+    }
+
+    .contato__btn {
+        width: 30vw;
+    }
+
+    .contato__fdst {
+        display: flex;
+        flex-direction: row;
+
+        margin-top: 30px;
+    }
+
+    .contato__mensagem {
+        margin-right: 50px;
+    }
+    
 }
