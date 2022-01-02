@@ -32,7 +32,7 @@ O site consiste em apresentar uma loja de jogos (fictícia), plataformas confiá
 - Google Images
 
 ## Ícones
--IcoMoon
+- IcoMoon
 
 # Autor
 
