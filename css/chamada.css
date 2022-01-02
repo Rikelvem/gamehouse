@@ -1,6 +1,7 @@
 .chamada {
     background-image: url(../img/jgs/background-ea.jpg);
     background-repeat: no-repeat;
+    background-position: right;
 
     background-size: 300vw 90vh;
 
@@ -82,6 +83,25 @@
     }
 }
 
+@media screen and (min-width: 1024px) {
+    .chamada {
+        background-size: 150vw;
+    }
+
+    .chamada__conteudo {
+        background: linear-gradient( -155deg, #ff474763 -30%, #0d1042f5 50%, #0d1042 100%);
+        background-size: 100% 100%;
+
+        align-items: flex-start;
+
+        padding: 32px 100px;
+    }
+
+    .chamada__botao {
+        width: 25vw;
+    }
+}
+
 /*@keyframes colors {
     0% {
         background-position: 0% 50%;
@@ -96,4 +116,4 @@
     }
 
     animation: colors 6s ease infinite;
-}*/
+}
