@@ -79,3 +79,36 @@
         font-size: 32px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .cabecalho__titulo {
+        cursor: default;
+    }
+
+    .cabecalho__menu {
+        display: none;
+    }
+
+    .cabecalho__nav {
+        font-family: var(--font-corpo);
+        display: flex;
+    }
+
+    .cabecalho__lista {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        text-transform: uppercase;
+
+        margin-right: 20px;
+    }
+
+    .cabecalho__link {
+        margin-right: 30px;
+
+        font-weight: 700;
+
+        cursor: pointer;
+    }
+}
