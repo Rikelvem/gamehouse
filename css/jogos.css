@@ -95,14 +95,16 @@
 .jogos__botao {
     margin-bottom: 27px;
     color: var(--branco);
-    font-size: 14px;
     font-weight: 700;
+
+    padding: 16px 32px;
+
+    display: flex;
+    
+    text-align: center;
 
     background-color: var(--azul);
     border-radius: 5px;
-
-    width: 50vw;
-    height: 5vh;
 }
 
 .jogos__botao-valorant {
@@ -117,16 +119,18 @@
     .jogos__cartao {
         width: 55vw;
     }
-
-    .jogos__botao {
-        width: 30vw;
-    }
 }
 
 @media screen and (min-width: 1024px) {
+    .jogos__titulo {
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
     .jogos__div {
         display: flex;
         flex-direction: row;
+        margin-bottom: 90px;
     }
 
     .jogos__cartao {
@@ -137,8 +141,15 @@
     .jogos__resumo {
         max-width: 260px;
     }
+}
 
-    .jogos__botao {
+@media screen and (min-width: 1440px) {
+    .jogos__resumo {
+        max-width: 280px;
+    }
+    
+    .jogos__cartao {
         width: 20vw;
+        margin: auto 40px;
     }
 }

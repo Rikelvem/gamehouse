@@ -85,8 +85,8 @@
     font-weight: 700;
     color: var(--branco);
 
-    width: 60vw;
-    height: 6vh;
+    padding: 16px 32px;
+    cursor: pointer;
 
     border-radius: 5px;
     background-color: var(--vermelho);
@@ -97,16 +97,16 @@
 }
 
 @media screen and (min-width: 768px) {
+    .contato__titulo {
+        margin-top: 30px;
+    }
+
     .contato__resumo {
         max-width: 300px;
     }
 
     .contato__legenda-btn {
         max-width: 325px;
-    }
-
-    .contato__btn {
-        width: 30vw;
     }
 
     .contato__fdst {

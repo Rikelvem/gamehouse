@@ -61,11 +61,15 @@
 
     padding: 8px 8px;
 
+    cursor: pointer;
+
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.20);
 }
 
 .botao__home i::before {
     content: "\e90b";
+
+    cursor: pointer;
 
     color: var(--branco);
 }
@@ -110,5 +114,15 @@
         font-weight: 700;
 
         cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cabecalho__titulo {
+        margin-left: 90px;
+    }
+
+    .cabecalho__lista {
+        font-size: 20px;
     }
 }

@@ -61,31 +61,29 @@
     background-color: var(--vermelho);
     color: var(--branco);
     font-family: var(--font-corpo);
-    font-weight: 400;
+    font-weight: 600;
 
-    height: 50px;
-    width: 70vw;
+    padding: 16px 32px;
 
     border-radius: 3px;
 
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
 }
 
 @media screen and (min-width: 768px) {
     .chamada {
         background-size: 200vw;
     }
-
-    .chamada__botao {
-        width: 30vw;
-    }
 }
 
 @media screen and (min-width: 1024px) {
     .chamada {
         background-size: 150vw;
+    }
+
+    .chamada__titulo {
+        cursor: default;
     }
 
     .chamada__conteudo {
@@ -98,7 +96,7 @@
     }
 
     .chamada__botao {
-        width: 25vw;
+        cursor: pointer;
     }
 }
 

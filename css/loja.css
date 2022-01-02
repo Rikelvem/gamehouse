@@ -115,14 +115,11 @@
     color: var(--branco);
     font-weight: 800;
 
-    height: 50px;
-    width: 50vw;
+    padding: 16px 48px;
 
     border-radius: 3px;
 
     display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .loja__botao-ps5 {
@@ -137,14 +134,19 @@
 
 @media screen and (min-width: 768px) {
     .loja__conteudo {
-        width: 70vw;
+        width: 60vw;
     }
 }
 
 @media screen and (min-width: 1024px) {
+    .loja__titulo {
+        margin-top: 30px;
+    }
+
     .loja__div {
         display: flex;
         flex-direction: row;
+        margin-bottom: 90px;
     }
 
     .loja__conteudo {
@@ -152,8 +154,12 @@
 
         margin: auto 15px;
     }
+}
 
-    .loja__botao {
+@media screen and (min-width: 1440px) {
+    .loja__conteudo {
         width: 20vw;
+
+        margin: auto 50px;
     }
 }
