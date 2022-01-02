@@ -140,3 +140,20 @@
         width: 70vw;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .loja__div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .loja__conteudo {
+        width: 30vw;
+
+        margin: auto 15px;
+    }
+
+    .loja__botao {
+        width: 20vw;
+    }
+}

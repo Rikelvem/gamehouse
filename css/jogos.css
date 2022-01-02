@@ -78,6 +78,10 @@
     margin-bottom: 10px;
 }
 
+.jogos__titulo-destaque-valorant {
+    color: var(--vermelho);
+}
+
 .jogos__resumo {
     max-width: 310px;
     text-align: center;
@@ -101,6 +105,10 @@
     height: 5vh;
 }
 
+.jogos__botao-valorant {
+    background-color: var(--vermelho);
+}
+
 @media screen and (min-width: 768px) {
     .jogos {
         background-size: 350vh;
@@ -112,5 +120,25 @@
 
     .jogos__botao {
         width: 30vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .jogos__div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .jogos__cartao {
+        width: 27vw;
+        margin: auto 25px;
+    }
+
+    .jogos__resumo {
+        max-width: 260px;
+    }
+
+    .jogos__botao {
+        width: 20vw;
     }
 }
