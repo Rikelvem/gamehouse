@@ -9,14 +9,6 @@ Loja de jogos - Game House é um projeto realizado com o intuito de reforçar e 
 
 O site consiste em apresentar uma loja de jogos (fictícia), plataformas confiáveis para você comprar seus jogos, os jogos em destaque no momento e o contato para caso precise tirar alguma dúvida. 
 
-## Layout mobile
-![Mobile 1](https://github.com/Rikelvem/gamehouse/blob/main/img/mobile-chamada.JPG) ![Mobile 2](https://github.com/Rikelvem/gamehouse/blob/main/img/mobile-chamada-menu.JPG) ![Mobile 3](https://github.com/Rikelvem/gamehouse/blob/main/img/mobile-modal.JPG)
-
-## Layout web
-![Web 1](https://github.com/Rikelvem/gamehouse/blob/main/img/desktop-chamada.JPG)
-
-![Web 2](https://github.com/Rikelvem/gamehouse/blob/main/img/desktop-modal.JPG)
-
 # Tecnologias utilizadas
 ## Front end
 - HTML5
@@ -25,6 +17,15 @@ O site consiste em apresentar uma loja de jogos (fictícia), plataformas confiá
 
 ## Implantação em produção
 - Front end web: Netlify
+- 
+## Layouts da aplicação
+![Mobile 1](https://github.com/Rikelvem/gamehouse/blob/main/img/mobile-chamada.JPG) ![Mobile 3](https://github.com/Rikelvem/gamehouse/blob/main/img/mobile-modal.JPG)
+---
+![Web 1](https://github.com/Rikelvem/gamehouse/blob/main/img/desktop-chamada.JPG)
+
+![Web 2](https://github.com/Rikelvem/gamehouse/blob/main/img/desktop-modal.JPG)
+
+
 
 # Créditos
 ## Imagens
