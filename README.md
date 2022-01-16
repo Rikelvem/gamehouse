@@ -5,7 +5,7 @@
 
 https://gamehouse.netlify.app/
 
-Loja de jogos - Game House é um projeto realizado com o intuito de reforçar e aprimorar os meus conhecimentos em HTML5, CSS3 e introduzir o JavaScript.
+Loja de jogos - Game House é um projeto realizado com o intuito de aperfeiçoar as minhas habilidades em Front-End.
 
 O site consiste em apresentar uma loja de jogos (fictícia), plataformas confiáveis para você comprar seus jogos, os jogos em destaque no momento e o contato para caso precise tirar alguma dúvida. 
 
