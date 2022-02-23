@@ -21,9 +21,7 @@ O site consiste em apresentar uma loja de jogos (fictícia), plataformas confiá
 ## Layouts da aplicação
 ![Mobile 1](https://user-images.githubusercontent.com/94795762/155411383-ec5ade59-09df-44a9-b9a4-536bbeb25f04.png)
 ---
-![Web 1](https://user-images.githubusercontent.com/94795762/155411445-bf8b9205-0a25-4cba-9dbe-806ed2cab7b5.png)
-
-![Web 2](https://user-images.githubusercontent.com/94795762/155411485-e93d51a2-9ba2-4437-a6e5-07fd1788abb5.png)
+![Web 1](https://user-images.githubusercontent.com/94795762/155411445-bf8b9205-0a25-4cba-9dbe-806ed2cab7b5.png) ![Web 2](https://user-images.githubusercontent.com/94795762/155411485-e93d51a2-9ba2-4437-a6e5-07fd1788abb5.png)
 
 
 
